@@ -1,0 +1,17 @@
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node test-build/test.js && exit 0",
+    "watch": "parcel watch",
+    "build": "rm -rf dist/* && parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  }
+}
